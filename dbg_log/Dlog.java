@@ -9,9 +9,9 @@ public final class Dlog {
 		Dlog.tag = tag;
 	}
 	
-	public static int d(String msg) { // only String class
+	/*public static int d(String msg) { // only String class
 		return Log.d(tag, msg);
-	}
+	}*/
 	
 	public static <T extends Object> int d(T msg) { // Generic
 		return Log.d(tag, msg+"");
